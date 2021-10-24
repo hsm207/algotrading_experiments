@@ -12,3 +12,6 @@ cloud-backtest: login
 
 debug:
 	lean backtest $(PROJECT) --debug ptvsd
+
+research:
+	lean research $(PROJECT)
